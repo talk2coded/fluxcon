@@ -387,12 +387,20 @@ input:required {
     margin-bottom: 0;
     text-transform: uppercase;
     letter-spacing: 1px; }
+
+    .logo{
+      height: 80px;
+    }
     @media only screen and (max-width: 767px) {
       .section-heading h4 {
         font-size: 26px; } }
     @media only screen and (min-width: 576px) and (max-width: 767px) {
       .section-heading h4 {
-        font-size: 30px; } }
+        font-size: 30px; }
+        .logo{
+          height: 60px;
+        }
+      }
 
 .section-heading-2 {
   position: relative;
@@ -437,7 +445,11 @@ input:required {
     letter-spacing: 1px; }
     @media only screen and (max-width: 767px) {
       .section-heading-3 h4 {
-        font-size: 26px; } }
+        font-size: 26px; }
+        .logo{
+          height: 60px;
+        }
+      }
     @media only screen and (min-width: 576px) and (max-width: 767px) {
       .section-heading-3 h4 {
         font-size: 30px; } }
@@ -735,7 +747,7 @@ input:required {
     -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
     box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15); }
     .header-area.sticky .classy-navbar {
-      height: 75px; }
+      height: 108px; }
 
 /* :: 8.0 Hero Area CSS */
 .welcome-area {
