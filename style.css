@@ -46,6 +46,10 @@ a:hover {
 
 li {
   list-style: none; }
+  .hero-btn-group{
+    display: flex;
+    justify-content: center;
+  }
 
 p {
   line-height: 1.8;
@@ -56,6 +60,17 @@ p {
 img {
   max-width: 100%;
   height: auto; }
+
+  .footer-logo {
+   padding: 0px !important;
+   height: 50px !important;
+  }
+  .footer-logo img{
+    height: 200px !important;
+    width: 300px !important;
+    margin-top: -70px;
+    
+  }
 
 ul {
   margin: 0;
@@ -389,7 +404,8 @@ input:required {
     letter-spacing: 1px; }
 
     .logo{
-      height: 80px;
+      height: 400px !important;
+      width: 250px;
     }
     @media only screen and (max-width: 767px) {
       .section-heading h4 {
@@ -446,9 +462,9 @@ input:required {
     @media only screen and (max-width: 767px) {
       .section-heading-3 h4 {
         font-size: 26px; }
-        .logo{
-          height: 60px;
-        }
+        /* .logo{
+          height: 90px;
+        } */
       }
     @media only screen and (min-width: 576px) and (max-width: 767px) {
       .section-heading-3 h4 {
@@ -678,8 +694,15 @@ input:required {
     height: 105px;
     padding: 0; }
     @media only screen and (max-width: 767px) {
+      .classy-nav-container .classy-navbar {
+        height: 80px !important;
+      }
+      .hero-btn-group{
+        display: block;
+        justify-content: center;
+      }
       .classy-nav-container .classy-navbar .nav-brand {
-        max-width: 90px;
+        max-width: 150px;
         margin-right: 15px; } }
     .classy-nav-container .classy-navbar .classynav ul li a {
       font-size: 16px;
@@ -747,7 +770,7 @@ input:required {
     -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
     box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15); }
     .header-area.sticky .classy-navbar {
-      height: 108px; }
+      height: 105px; }
 
 /* :: 8.0 Hero Area CSS */
 .welcome-area {
@@ -1166,6 +1189,11 @@ input:required {
         font-size: 22px; } }
   .about-us-countdown-area .about-content-text p {
     color: #ffffff; }
+
+    .about-us-countdown-area .about-content-text ul li {
+      color: #ffffff; 
+      list-style-type: disc;
+    }
 
 /* :: About Single Page CSS */
 .single-we-offer-content {
@@ -2099,7 +2127,9 @@ input:required {
 /* 16.0 Client Area CSS */
 .our-client-area {
   position: relative;
-  z-index: 1; }
+  z-index: 1; 
+  height: 300px;
+}
   .our-client-area .owl-prev,
   .our-client-area .owl-next {
     -webkit-transition-duration: 500ms;
