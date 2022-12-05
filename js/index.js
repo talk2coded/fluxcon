@@ -175,7 +175,7 @@ function show(currentPageData) {
           <img src=${r.thumbnail} alt="">
           </div>
           <div class="single-blog-text text-center">
-          <a class="blog-title" href=${r.link}>${r.title}</a>
+          <a class="blog-title" href=${r.link} target="_blank">${r.title}</a>
           <div class="post-meta">
             <a class="post-date" href="#"><i class="zmdi zmdi-alarm-check"></i> ${r.pubDate.slice(0, 10)}</a>
             <a class="post-author" href="#"><i class="zmdi zmdi-account"></i>${r.author}</a>
@@ -183,7 +183,7 @@ function show(currentPageData) {
             </div>
           </div>
           <div class="blog-btn">
-          <a href=${r.link}><i class="zmdi zmdi-long-arrow-right"></i></a>
+          <a href=${r.link} target="_blank"><i class="zmdi zmdi-long-arrow-right"></i></a>
           </div>
           </div>
       </div>
