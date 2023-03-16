@@ -68,9 +68,21 @@ img {
   .footer-logo img{
     height: 200px !important;
     width: 300px !important;
-    margin-top: -70px;
+    margin-top: -70px !important;
     
   }
+
+  .footer-logo2 {
+    padding: 0px !important;
+    height: auto !important;
+   }
+   .footer-logo2 img{
+     height: 50px !important;
+     width: 150px !important;
+     /* margin-top: -70px; */
+     
+   }
+  
 
 ul {
   margin: 0;
@@ -2561,7 +2573,7 @@ input:required {
   z-index: 1;
   width: 100%; }
   .our-sponsor-area .single-sponsor {
-    border: 1px solid #444675;
+    /* border: 1px solid #444675; */
     -webkit-box-flex: 0;
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
